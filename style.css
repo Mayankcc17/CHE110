@@ -206,11 +206,36 @@ text-align: center;
   text-align: left;  
 }
 
+.act .hed{
+  text-align: center;
+  background-color:white; 
+  border-radius: 10px; 
+  height: 80px;
+  padding: 1px 1px 10px 1px;
+  margin-bottom: 5px;
+  width: 90%;
+  margin-left: 5%;
+
+}
+
+.act .acts{
+  background-color:white; 
+  display:inline-block; 
+  border-radius: 10px; 
+  overflow: hidden; 
+  box-shadow: 10px 10px 10px rgb(193, 54, 30);
+  height: 500px;
+  width: 90%;
+  margin-bottom: 100px;
+  margin-left: 5%;
+  overflow-y: scroll;
+  
+}
+
 
 
 footer {
   background-color: rgb(18, 93, 45);
- 
   color: #fff;
   padding:1px;
   text-align: center;
